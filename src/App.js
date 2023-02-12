@@ -203,7 +203,7 @@ function BasicExample() {
           <Container fluid>
             <Row className="justify-content-md-center">
               <Col md="auto" className="m-auto">
-                <Card style={{ width: "20.5rem" }}>
+                <Card style={{ width: "21rem" }}>
                   <Card.Img
                     className="d-block mx-auto img-fluid.max-width: 100%"
                     variant="top"

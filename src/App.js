@@ -200,19 +200,22 @@ function BasicExample() {
           </Container>
         </div>
         <div className="bg-light">
-          <Container>
+          <Container fluid>
             <Row className="justify-content-md-center">
-              <Col md="auto">
-                <Card
-                  style={{ width: "27rem" }}
-                  className="d-block mx-auto img-fluid.max-width: 100%"
-                >
-                  <Card.Img variant="top" src={Project1} />
+              <Col md="auto" className="m-auto">
+                <Card style={{ width: "25.5rem" }}>
+                  <Card.Img
+                    className="d-block mx-auto img-fluid.max-width: 100%"
+                    variant="top"
+                    src={Project1}
+                    xs={12}
+                    sm={4}
+                    md={4}
+                  />
                   <Card.Body>
-                    <Card.Title>My First Website</Card.Title>
+                    <Card.Title>Web Sekolah</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Web ini didesain untuk kebutuhan akademik Sekolah Menengah Pertama
                     </Card.Text>
 
                     <Button

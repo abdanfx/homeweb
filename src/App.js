@@ -12,10 +12,11 @@ import JSCertificate from "../src/images/jscertificate.png";
 import PHPCertificate from "../src/images/phpcertificate.png";
 import SQLCertificate from "../src/images/sqlcertificate.png";
 import Project1 from "../src/images/project1.png";
+import Project2 from "../src/images/project2.png";
 import Card from "react-bootstrap/Card";
 import Figure from "react-bootstrap/Figure";
 import Avatar from "../src/images/avatar.svg";
-import Programmer from "../src/images/programmer.svg";
+import Programmer from "../src/images/programmer_blue.svg";
 
 function BasicExample() {
   return (
@@ -105,19 +106,12 @@ function BasicExample() {
                     className="bg-dark"
                     width={700}
                     height={700}
-                    alt="avatar"
+                    alt="Programmer Image"
                     src={Programmer}
                   />
                 </Figure>
               </Col>
             </Row>
-            {/* <Row className="justify-content-md-center pt-3">
-              <Col md="auto" className="text-center homeText">
-                <Button variant="primary" href="#project">
-                  My Portfolio
-                </Button>{" "}
-              </Col>
-            </Row> */}
           </Container>
         </div>
         <div className="bg-light" id="profile">
@@ -290,9 +284,9 @@ function BasicExample() {
         <div className="bg-light">
           <Container fluid>
             <Row className="justify-content-md-center">
-              <Col md="auto" className="m-auto">
+              <Col md="auto" sm>
                 <Card
-                  className="shadow ronded p-2 bg-body-tertiary"
+                  className="shadow ronded p-2 mb-5 bg-body-tertiary"
                   style={{ width: "22rem" }}
                 >
                   <Card.Img
@@ -313,6 +307,36 @@ function BasicExample() {
                     <Button
                       variant="primary"
                       href="https://sistempendaftaransmp.000webhostapp.com/"
+                      target="_blank"
+                    >
+                      Demo
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col md="auto" sm>
+                <Card
+                  className="shadow ronded p-2 bg-body-tertiary"
+                  style={{ width: "22rem" }}
+                >
+                  <Card.Img
+                    className="d-block mx-auto img-fluid.max-width: 100%"
+                    variant="top"
+                    src={Project2}
+                    xs={12}
+                    sm={4}
+                    md={4}
+                  />
+                  <Card.Body>
+                    <Card.Title>Multipurpose Landing Page</Card.Title>
+                    <Card.Text>
+                      This landing page id designed for multi purpose content.
+                    </Card.Text>
+
+                    <Button
+                      variant="primary"
+                      href="https://homepagenew.vercel.app/"
                       target="_blank"
                     >
                       Demo
